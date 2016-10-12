@@ -21,7 +21,7 @@ If you don't have any sort of git system installed, google "Git Bash". Git is a 
 software that essentially allows you to make changes to code and keep track of the changes
 you make.  I won't get into the syntax of all that here, but once you have git bash installed
 open up a git bash terminal, navigate to the folder where you want to download the code folder
-to, and run "git clone *http address of the git repo, idk what is right now*".  That will
+to, and run "git clone https://github.com/alecgunny/Beluga.git".  That will
 create a folder called Whale in your current directory, and initialize a git repository in it
 which will have all of these files.
 

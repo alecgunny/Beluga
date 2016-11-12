@@ -22,5 +22,5 @@ def axis_spectrogram(ax, stuff):
     frequencies, times, values = stuff
     extent = [times.min(), times.max(), frequencies.min(), frequencies.max()]
     ax.imshow(values, extent=extent, origin='lower', aspect='auto')
-    ax.set_xlabel('Time (s)')
+    ax.set_xlabel('Time (ms)')
     ax.set_ylabel('Frequency (Scale)')
